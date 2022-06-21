@@ -46,3 +46,12 @@ a{
 th{
   text-transform: uppercase;
 }
+
+.tabla tr:nth-child(even){
+  background-color:dodgerblue;
+}
+
+.fa-pizza-slice{
+  color:burlywood;
+  padding: 2px;
+}
