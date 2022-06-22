@@ -55,6 +55,22 @@ html {
   overflow-x: hidden;
 }
 
+.contenido {
+  padding: 1em;
+}
+td {
+  display: block;
+  width: 100%;
+}
+td:nth-of-type(1) {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: blue;
+}
+th {
+  display: none;
+}
+
 a {
   text-decoration: none;
   color: darkblue;
@@ -174,21 +190,19 @@ img {
   max-width: 100%;
 }
 
-@media (max-width: 600px) {
-  .contenido {
-    padding: 1em;
+@media (min-width: 900px) {
+  th {
+    display: table-cell;
   }
   td {
-    display: block;
-    width: 100%;
+    width: auto;
+    display: table-cell;
   }
   td:nth-of-type(1) {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: blue;
+    font-size: 1em;
   }
-  th {
-    display: none;
+  .contenido {
+    padding: 1.8em;
   }
 }
 
