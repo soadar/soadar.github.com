@@ -203,6 +203,7 @@ img {
   }
   .contenido {
     padding: 1.8em;
+    overflow-y: auto;
   }
 }
 
